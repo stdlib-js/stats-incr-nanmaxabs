@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrnanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmaxabs@deno/mod.js';
+import incrnanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmaxabs@v0.1.1-deno/mod.js';
 ```
 
 #### incrnanmaxabs()
@@ -99,7 +99,7 @@ max = accumulator();
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import incrnanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmaxabs@deno/mod.js';
+import incrnanmaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmaxabs@v0.1.1-deno/mod.js';
 
 // Initialize an accumulator:
 var accumulator = incrnanmaxabs();
